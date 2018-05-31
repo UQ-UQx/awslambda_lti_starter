@@ -4,9 +4,13 @@ Instructions for creating an LTI that runs on AWS Lambda, uses Flask and is depl
 
 ## Get Zappa up and running
 $ mkdir awslambda_lti
+
 $ cd awslambda_lti
+
 $ virtualenv env
+
 $ source env/bin/activate
+
 $ pip install flask zappa pylti
 
 ## Create a file called lti_app.py 
